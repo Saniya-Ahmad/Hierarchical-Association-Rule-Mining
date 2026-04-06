@@ -1,20 +1,20 @@
 # Multi-Level Food Analysis using Hierarchical Association Rule Mining
 
-## 📌 Overview
+##  Overview
 This project explores customer purchasing behavior using **hierarchical association rule mining**. By applying the Apriori algorithm across multiple levels of product abstraction, the project identifies meaningful patterns in retail transactions.
 
 The goal is to understand how product relationships vary at different levels such as department, commodity, and sub-category.
 
 ---
 
-## 🎯 Objective
+##  Objective
 - Discover associations between products at multiple hierarchy levels  
 - Compare rule quality across abstraction levels  
 - Analyze trade-offs between general and specific patterns  
 
 ---
 
-## 📊 Dataset
+##  Dataset
 - **Dunnhumby – The Complete Journey Dataset** (Kaggle)  
 - Includes:
   - Transaction data (customer purchases)
@@ -24,7 +24,7 @@ The goal is to understand how product relationships vary at different levels suc
 
 ---
 
-## ⚙️ Methodology
+##  Methodology
 
 ### 1. Data Preprocessing
 - Merged transaction and product datasets using Product ID  
@@ -51,7 +51,7 @@ The goal is to understand how product relationships vary at different levels suc
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - Python  
 - Pandas, NumPy  
 - mlxtend (Apriori)  
@@ -60,7 +60,7 @@ The goal is to understand how product relationships vary at different levels suc
 
 ---
 
-## 📈 Results & Insights
+##  Results & Insights
 - **Level 1 (Department):** Strong but general patterns  
 - **Level 2 (Commodity):** Most meaningful and actionable insights  
 - **Level 3 (Sub-Commodity):** Highly specific rules with lower support  
@@ -70,16 +70,8 @@ Key observation:
 
 ---
 
-## 📷 Sample Outputs
-*(Add your images here)*
 
-- Confidence vs Lift plot  
-- Metrics distribution  
-- Network graph of associations  
-
----
-
-## 📚 Learnings
+##  Learnings
 - Understanding of hierarchical data mining  
 - Practical implementation of Apriori algorithm  
 - Importance of tuning support thresholds  
